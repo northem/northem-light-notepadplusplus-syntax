@@ -31,6 +31,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (2.7) JavaScript
     (2.8) PHP
     (2.9) Properties
+    (2.10) SQL
 
 [Variations]
   - "Northem - Notepad++ Syntax"      (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -358,5 +359,23 @@ Glacier - Git
         <WordsStyle name="DEFVAL" styleID="4" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.9]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - SQL                                                     [2.10] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="sql" desc="SQL" ext="sql">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC" styleID="3" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="4" fgColor="BA8EC4" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="KEYWORD" styleID="5" fgColor="6FBAD0" bgColor="F9F9FC" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="STRING" styleID="6" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="STRING2" styleID="7" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="6FBAD0" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="11" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[2.10]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
