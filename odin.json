@@ -1,10 +1,10 @@
 {
   "id": "northem-light-notepadplusplus-syntax",
   "name": "Northem Light - Notepad++ Syntax",
-  "version": "",
+  "version": "0.0.0",
   "date": {
    "created": "2015-03-26 16:12 UTC+0100",
-   "updated": ""
+   "updated": "2016-04-15 13:10 UTC+0200"
   },
   "access": "public",
   "modularity": "subproject",
