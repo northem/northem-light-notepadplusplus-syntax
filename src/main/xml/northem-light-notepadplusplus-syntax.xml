@@ -28,6 +28,7 @@ This is a light and more color-intensive variation of the "Northem" color palett
     (2.4) HTML
     (2.5) Initializations
     (2.6) Java
+    (2.7) JavaScript
 
 [Variations]
   - "Northem - Notepad++ Syntax"      (https://github.com/arcticicestudio/northem-notepadplusplus-syntax)
@@ -304,5 +305,26 @@ Glacier - Git
         <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="DF5C5A" bgColor="F9F9FC" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.6]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - JavaScript                                               [2.7] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="javascript" desc="Javascript" ext="js json">
+        <WordsStyle name="DEFAULT" styleID="41" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="NUMBER" styleID="45" fgColor="BA8EC4" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="WORD" styleID="46" fgColor="7ACAC2" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="KEYWORD" styleID="47" fgColor="6FBAD0" bgColor="F9F9FC" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="49" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="SYMBOLS" styleID="50" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="STRINGEOL" styleID="51" fgColor="454546" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="REGEX" styleID="52" fgColor="FFC568" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="42" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENTLINE" styleID="43" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENTDOC" styleID="44" fgColor="C6C6C8" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5781B3" bgColor="F9F9FC" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="DF5C5A" bgColor="F9F9FC" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.7]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
